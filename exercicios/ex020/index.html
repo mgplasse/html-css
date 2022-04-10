@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Brincando com formatação caixa - css</title>
+    <style>
+        
+        h1#caixa {
+            width: 300px;
+            height: 50px;
+            background-color: red;
+
+            border-width: 15px;
+            border-style: ridge;
+            border-color: rgb(233, 113, 113);
+
+            padding: 40px 35px 40px 35px;
+
+            outline-width: 12px;
+            outline-style: dashed;
+            outline-color: lightblue;
+            outline-offset: 9px;
+
+            margin: 60px;
+            text-align: center;
+            
+        }
+        h3 {
+            background-color: chartreuse;
+        }
+    </style>
+    <link rel="shortcut icon" href="..\ico alien\favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="index.html">Página 01</a>
+            <a href="index02.html">Página 02</a>
+            <a href="index03.html">Página 03</a>
+        </nav>
+    </header>
+    <h2>Acesse a página 02 <a href="index02.html">brincando com formato da caixa</a></h2>
+    <h2>Acesse a página 03 <a href="index03.html"> brincando com sombras</a></h2>
+    <h1 id="caixa">Exemplo de caixa</h1>
+    <picture>
+        <img src="Screenshot_147.jpg" alt="box-size">
+        <img src="Screenshot_148.jpg" alt="">
+    </picture>
+    <p>Dá pra simplificar?
+        As configurações de borda e contorno também possuem shorthands para simplificar o
+        código anterior. A ordem para as duas configurações é sempre a mesma para as duas
+        shorthands: largura (-width), estilo (-style) e cor (-color).
+        
+    </p>
+    <ul>
+        <li><strong>Modo Completo</strong></li>
+        <ul>
+            <li>border-width: 15px;</li>
+            <li>border-style: ridge;</li>
+            <li>border-color: rgb(233, 113, 113);</li>
+            <li>outline-width: 12px;</li>
+            <li>outline-style: dashed;</li>
+            <li>outline-color: lightblue;</li>
+        </ul>
+        <br>
+        <li><strong>Shorthand (Abreviado)</strong></li>
+        <ul>
+            <li>border: 10px solid rgb(233, 113, 113);</li>
+            <li>outline: 30px solid; lightblue</li>
+        </ul>
+    </ul>
+    <br>
+    <h2>Preenchimento e margem
+        personalizados</h2>
+        <p>Todo elemento de caixa possui quatro valores para padding e quatro para margin,
+        sempre nessa mesma ordem: superior (-top), direita (-right), inferior (-bottom),
+        esquerda (-left). Quando colocamos um único valor de dimensão para o
+        preenchimento ou margem, esse mesmo valor é aplicado simetricamente a todas as
+        direções, mas também podemos fazer códigos como:</p>
+        <ul>
+            <li><strong>Modo completo:</strong>
+            </li>
+            <ul><li>padding-top: 10px;</li>
+                <li>padding-right: 20px;</li>
+                <li>padding-bottom: 10px;</li>
+                <li>padding-left: 20px;</li>
+                <br>
+                <li>margin-top: 0px</li>
+                <li>margin-right: 15px</li>
+                <li>margin-bottom: 0px</li>
+                <li>margin-left: 15px</li>
+            </ul>
+            <br>
+                <li><strong>Modo shorthand (Abreviado)</strong></li>
+            <ul>
+                <li>padding: 10px 20px;</li>
+                <li>margin: 0px 15px;</li>
+            </ul>
+        </ul>
+        <h3>Perceba que a ordem é sempre igual: CIMA, DIREITA, BAIXO, ESQUERDA: sentido horário igual um relógio.
+            Nota: Se precisar igualar altura (tanto pra cima quanto pra baixo) e largura (tanto pra direita quanto pra esquerda), basta por os dois dados como ali no "shorthand"
+            <p>Essa simplificação só é possível quando as medidas -top e -bottom forem iguais entre
+si e o mesmo também ocorrer entre as medidas -right e -left.</p>
+        </h3>
+        <h2>Margens no automático</h2>
+        <p>Um recurso que será muito utilizado nos exercicios do Guanabara é a centralização de blocos. Para que isso seja feito, devemos pedir que o navegador calculo automaticamente as magens da esquerda e da direita para que o bloco seja colocado no meio do navegador, independnete do tamanho da janela.
+        </p>
+        <mark>MARGIN; auto</mark>
+    
+    
+    <h1>Exemplo</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae hic tempore omnis soluta dolor, quo accusamus inventore voluptate placeat laudantium rerum odit fugit, iure maxime excepturi tempora provident facere ex?</p>
+</body>
+</html>

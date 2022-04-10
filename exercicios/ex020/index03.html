@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Brincando sombras</title>
+    <style>
+        
+        article#caixa {
+            background-color: snow;
+            width: 400;
+            margin: auto;
+            padding: 1px 10px;
+            box-shadow: 3px 5px 4px black;
+        }
+        .caixa {
+            background-color: snow;
+            width: 400;
+            margin: auto;
+            padding: 1px 10px;
+            border-radius: 10px 40px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="index.html">Página 01</a>
+            <a href="index02.html">Página 02</a>
+            <a href="index03.html">Página 03</a>
+        </nav>
+    </header>
+    <h2>Acesse a <a href="index.html">página 01</a> </h2>
+    <article id="caixa">
+        <h1>Usando Sombras</h1>
+        <p>Vamos aprender a utilizar sombras</p>
+    </article>
+    <p>Veja que uma sombra bem forte já pode ser percebida, assim que adicionamos a
+        propriedade box-shadow e seus quatro valores. A ordem é sempre essa:
+        <ul>
+        <li>
+            1. Deslocamento horizontal (h-offset): quanto a sombra vai andar para o lado
+            direito (valores negativos causam deslocamento para a esquerda)
+        </li>
+        <li>
+            2. Deslocamento vertical (v-offset): quanto a sombra vai andar para baixo (valores
+            negativos causam deslocamento para cima)
+        </li>
+        <li>3. Embaçamento (blur): quanto a sombra vai se espalhar pelo fundo</li>
+        <li>4. Cor (color): cor da sombra. É possível usar transparência.</li></ul></p>
+        <h1>Vértices arredondados
+            </h1>
+            <p>Podemos arredondar os vértices usando uma declaração simples usando a
+                propriedade border-radius. Adicione o seguinte comando ao seletor do artigo do
+                exemplo que estamos criando:</p>
+                <h2>border-radius: 10px</h2>
+                <article class="caixa">
+                    <h1>Testando</h1>
+                    <p>vamos aprender a fazer bordas arredondadas</p>
+                </article>
+                <p>ou utilizar</p>
+</body>
+</html>

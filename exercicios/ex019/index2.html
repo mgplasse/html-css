@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        div > p {
+            display: none;
+        }
+        div:hover > p {
+            display: block;
+            background-color: yellowgreen;
+        }
+        div > h2 {
+            display: none;
+        }
+        div:hover > h2 {
+            display: block;
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <a href="index.html">Clique aqui para voltar</a>
+    <h1 id="titulo-principal">Conteúdo especial</h1>
+    <div>
+        Passe o mouse aqui
+        <p>surpresa!!!!</p>
+        <h2>Texto oculto</h2>
+    </div>
+    <p>Veja o conteúdo oculto aparecendo</p>
+    <h1>DIV</h1>
+    <p>Ao utilizarmos um simbolo de ">", estamos indicando que é um DIRECT CHILDREN (Filho direto) do lado maior. Ex: DIV > P (P é filho de DIV)</p>
+
+</body>
+</html>

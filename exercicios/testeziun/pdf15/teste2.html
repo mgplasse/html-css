@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste botao</title>
+    <style>
+        div {
+          margin-bottom: 15px;
+          padding: 4px 12px;
+        }
+        
+        .danger {
+          background-color: #ffdddd;
+          border-left: 6px solid #f44336;
+        }
+        
+        .success {
+          background-color: #ddffdd;
+          border-left: 6px solid #04AA6D;
+        }
+        
+        .info {
+          background-color: #e7f3fe;
+          border-left: 6px solid #2196F3;
+        }
+        
+        
+        .warning {
+          background-color: #ffffcc;
+          border-left: 6px solid #ffeb3b;
+        }
+        .especial {
+            background-color: rgba(0, 255, 255, 0.952);
+            font-style: maroon;
+            border-left: 12px solid aqua;
+          
+        }
+        a {
+            font-weight: bold;
+            color: purple;
+        }
+        a:visited {
+            font-weight: normal;
+            color: blue
+        }
+        a:hover {
+            text-decoration: underline, line-through;
+        }
+        </style>
+        </head>
+      
+</head>
+<body>
+    <h2>What Can JavaScript Do?</h2>
+
+<p>JavaScript can change HTML attribute values.</p>
+
+<p>In this case JavaScript changes the value of the src (source) attribute of an image.</p>
+
+<button onclick="document.getElementById('myImage').src='imagem teste2/lampon.png'">Turn on the light</button>
+
+<img id="myImage" src="imagem teste2/lampon.png" style="width:100px">
+
+<button onclick="document.getElementById('myImage').src='imagem teste2/lampoff.png'">Turn off the light</button>
+
+<h2>Notes</h2>
+        <div class="danger">
+          <p><strong>Danger!</strong> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore porro atque sit reprehenderit blanditiis excepturi nostrum. Sapiente natus officia eos optio dolor perspiciatis. Eveniet cupiditate maiores enim quidem, ea magni!...</p>
+        </div>
+        
+        <div class="success">
+          <p><strong>Success!</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi animi pariatur fugit vitae saepe assumenda iusto, unde nisi officiis beatae quos doloribus non veritatis. Dignissimos quas laboriosam ipsam cumque optio....</p>
+        </div>
+        
+        <div class="info">
+          <p><strong>Info!</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi animi pariatur fugit vitae saepe assumenda iusto, unde nisi officiis beatae quos doloribus non veritatis. Dignissimos quas laboriosam ipsam cumque optio....</p>
+        </div>
+        
+        <div class="warning">
+          <p><strong>Warning!</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi animi pariatur fugit vitae saepe assumenda iusto, unde nisi officiis beatae quos doloribus non veritatis. Dignissimos quas laboriosam ipsam cumque optio....</p>
+        </div>
+
+<h1>Personalizando um link</h1>
+<h2>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui inventore quae nobis dolorum debitis cum cupiditate modi obcaecati illum fugiat accusantium distinctio rem similique ab quia, aliquid non optio odio.</h2>
+<div><h1>Mais conteudo acesse <a href="https://youtube.com.br" target="_blank" rel="external" class="especial"><strong>Pagina Inicial</strong></a></h1></div>
+<h2>Testando informação hide com o div:hover</h2>
+</body>
+</html>

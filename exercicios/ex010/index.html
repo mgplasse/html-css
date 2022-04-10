@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hyperlinks - Capitulo 10</title>
+</head>
+<body>
+    <h1>Capítulo Um</h1>
+    <H2>Aprendendo links externos</H2>
+    <p>Aprendendo a criar e acessar links externos, <a href="https://github.com/gustavoguanabara/html-css/tree/master/aulas-pdf">estando ele clicável</a></p>
+    <p>para que isso acontecer, precisamos utilizar a tag &lt;A&gt;, significando ANCHOR {Âncora}, só que ele abrirá uma pagian de sobreposição, irá ser aberto por cima do site atual</p>
+    <h2>Porém, sempre é &gt;recomendado&lt; utilizar a tag A, com <mark>=target"_blank rel="external"</mark>, para que abra em uma página nova em aba!</h2>
+    <p>Segue teste para efetivar isto, <a href="https://www.youtube.com/watch?v=LeOVXQDsAIY" target="_blank" rel="external">pega essa referencia do youtube</a></p>
+
+    <h1>Aprendendo links INTERNOS</h1>
+    <h2>O link interno é o que vai fazer uma relação com outra página que está dentro do nosso servidor, que diz respeito a nossa página. Para efetivar um link interno é preciso ter outra página</h2>
+    <ul>
+        Para mais informações:
+            <li><a href="pag002.html" target="_self" rel="next">acesse a página dois</a>
+            </li>
+            <li><a href="noticias/pag003.html" target="_self">acesse a página três</a></li>
+    </ul>
+    <p>O material de link intenro, apenas funcionará se ambas html estiverem na mesma pasta de documentos</p>
+    
+    <h1>Aula 03, APRENDENDO A LINKAR DOWNLOADS {Arquivos}</h1>
+    <h2>Links para download</h2>
+    <ul>
+        <li><a href="livro/livro.compressed.pdf" download="livro.compressed.pdf" type="application/pdf">PDF Aula 10</a></li>
+        <li><a href="livro/livro.compressed.pdf" target="_blank" type="external">Teste de download sem utilizar download= e type=</a> </li>
+        <li><a href="livro/livro.rar">RAR da PDF Aula 10</a></li>
+    </ul>
+
+</body>
+</html>

@@ -1,0 +1,65 @@
+
+
+body {
+    font: normal 1em Tahoma, Verdana;
+    background-color: rgb(204, 191, 191);
+    
+}
+
+h1 {
+    font-size: 2em;
+    color: darkblue;
+}
+
+h2 {
+    color: blue;
+}
+
+#titulo-principal {
+    background-color: darkblue;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.topico {
+    text-align: right;
+}
+
+.texto {
+text-align: justify;
+}
+.teste {
+    background-color: black;
+    color: rgb(96, 96, 197);
+    font-size: 4em;
+}
+p.info {
+    font-style: italic;
+}
+
+a {
+    font-weight: bold;
+    text-decoration: none;
+    color: red;
+            
+    }
+a:visited {
+        color: darkgoldenrod;
+    }
+
+a:hover {
+        text-decoration: underline;
+    }
+.especial:hover {
+        color: white;
+        background-color: black;
+        text-decoration: none;
+    }
+.especial::before {
+        content: '>';
+        font-weight: lighter;
+    }
+.especial::after {
+        content: '<';
+        font-weight: lighter;
+    }

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens flex</title>
+</head>
+<body>
+    <h1>Testando imagens flexiveis</h1>
+    <p>Vamos lá</p>
+    <picture>
+        <source media="(max-width: 700px)" srcset="imagens/imagem-p.png" type="image/png">
+        <source media="(max-width: 1000px)" srcset="imagens/imagem-m.png" type="image/png">
+        <img src="imagens/imagem-g.png" alt="flex">
+        
+    </picture>
+    <h1>Utilizando Áudio</h1>
+        <p>Testando, 1, 2, 3...</p>
+        <audio controls autoplay>
+            <source src="media/Dragón Rojo - The Mini Vandals.mp3" type="audio/mpeg"> <!-- Mp3 WAV e OGG-->
+        </audio>
+        <audio preload="metadata" controls> <!-- Auto = download automatico e ja fica dposinivel / Metadata = só toca após clicar no play (inicia o download) e NONE ja diz-->
+            <source src="media/Smoke Jacket Blues - TrackTribe.mp3" type="audio/mpeg">
+        </audio>
+    
+</body>
+</html>

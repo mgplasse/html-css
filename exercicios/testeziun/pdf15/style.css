@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+body {
+    text-align: justify;
+    background-image: linear-gradient(90deg, #912e2ed0, rgba110, 77, 28, 0.815, #837c3ad0)
+}
+
+h1 {
+    font: bold 2em 'Verdana', 'sans-serif';
+    color: rgb(69, 170, 170);
+    text-align: center;
+}
+h2 {
+    font: normal 1em 'Verdana', 'sans serif';
+    color: rgb(47, 79, 79);
+    text-align: right;
+}
+
+#titulo-principal {
+    background-color: black;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.topico {
+    text-align: left;
+}
+.texto {
+    text-align: ;
+}
+a {
+    color: blue
+}
+a:visited {
+    color:blue
+}
+
+.danger {
+    background-color: #ffdddd;
+    border-left: 6px solid #f44336;
+  }
