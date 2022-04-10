@@ -140,14 +140,6 @@ aside > p::first-letter {
     margin-left: 25px;
 }
 
-.container {
-    display: flex;
-    flex-flow: ROW wrap;    
-    justify-content: space-evenly;
-    align-items: center;
-
-    
-}
 .dan-droids {
     max-width: 800px;
     max-height: 266px;
@@ -189,9 +181,16 @@ a {
     text-align: center;
 }
 
+.container {
+    /* display: block; */
+    margin: 0px 15px;
+    
+    list-style-position: inside;
+    justify-content: space-evenly;
+    align-items: center;
+}
 
 ul {
     list-style-type: '\2714\0020\0020';
     columns: 2;
-    list-style-position: inside;
 }
