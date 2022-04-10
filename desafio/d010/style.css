@@ -16,6 +16,7 @@ body  {
     background-color: rgb(67, 236, 157);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: justify;
+    font-size: large;
    
 }
 
@@ -26,7 +27,7 @@ header {
     margin: 0;
     padding: 5px 0px 5px 0px;
     
-    text-shadow: 3px 3px 0px black;
+    text-shadow: 3px 2px 3px black;
 }
 
 header > h1 {
@@ -36,11 +37,15 @@ header > h1 {
 
 h1#principal {
     font-size: 2em;
+    
+    
 }
 
 
 nav {
     text-align: start;    
+    margin: 0px 30px;
+    padding: 4px 2px;
     
 }
 
@@ -49,10 +54,11 @@ nav > a {
     color: white;
     font-weight: bold;
     margin: 0px 25px;
+    border-bottom: 2px solid rgb(16, 100, 23);
 }
 
 nav > a:hover {
-    color: blue;
+    color: rgb(91, 91, 241);
     text-decoration: underline;
 }
 
@@ -60,11 +66,13 @@ main {
     margin: 0px 50px;
     padding: 10px 25px;
     background-color: snow;
+    
 }
 
 
 .idroid {
     font-family: 'idroid', 'Times New Roman', Times, serif;
+    text-shadow: 3px 2px 3px rgb(47, 146, 72);
 }
 
 p {
@@ -74,6 +82,7 @@ p {
 .scnd {
     background-image: linear-gradient(90deg, rgba(143, 231, 143, 0.537), transparent);
     padding: 8px 0px 8px 8px;
+    text-shadow: 3px 2px 3px rgb(47, 146, 72);
 }
 
 .centerimg {
@@ -97,6 +106,7 @@ img {
     max-height: 195px;
     display: block;
     margin: 0 auto 0 auto;
+    
   
 }
 
@@ -125,11 +135,13 @@ aside > h3 {
     color: white;
     background-color: rgb(35, 131, 86);
     font-weight: bold;
+    font-size: 1,9em;
     border: auto;
     padding: 12px;
     text-align: left;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
+    text-shadow: 2px 2px 3px black;
 
 }
 main > p::first-letter {
@@ -149,15 +161,16 @@ aside > p::first-letter {
     max-height: 236px;
 
 }
-.left {
+/* .left {
     height: 150px;
     width: 200px;
 }
 
 .right {
     width: 200px;
-    height: 150px;
-}
+    height: 150px; 
+}*/
+
 footer {
     background-color: rgba(0, 0, 0, 0.51);
     color: white;
@@ -169,7 +182,7 @@ footer > a {
     color: white;
     font-weight: bold;
 }
-a:hover {
+main a:hover {
     color: white;
     background-color: rgba(126, 0, 0, 0.551);
     text-decoration: underline;
