@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens no fundo</title>
+    <style>
+        
+        body {
+            height: 100%;
+            background-image: url('—Pngtree—isolate\ trees\ on\ white\ background_3764487.png');
+            background-repeat: repeat;
+            
+        }
+        
+        
+        #q1 {
+            background-color: green;
+        }
+        #q2 {
+            background-image: repeating-linear-gradient(75deg, yellow, red, blue);
+        }
+        #q3 {
+            background-image: url('—Pngtree—cloud_3554581.png');
+            background-size: 300px;
+        }
+        .quadrado {
+            display: inline-block;
+            margin: 5px;
+            width: 300px;
+            height: 300px;
+            background-color: yellow;
+            border: 2px solid black;
+            border-radius: 55px;
+        }
+    </style>
+</head>
+<body>
+    <div class="quadrado" id="q1"></div>
+    <div class="quadrado" id="q2"></div>
+    <div class="quadrado" id="q3"></div>
+    <img src="—Pngtree—cloud_3554581.png" alt="" height="300px" weight="300px">
+</body>
+</html>
