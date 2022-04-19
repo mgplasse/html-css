@@ -7,14 +7,60 @@
     <title>Desafio Astronauta</title>
     <style>
         body {
+            margin: 0px;
+            padding: 0px;
+            position: relative;
             background-image: url(espaco.jpg);
+            background-color: lightgray;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            height: 98vh;
+            width: 100vw;
+            background-size: 100% 100%;
         }
-        img#projeto {
-            background-image: url(); 
+        div#container {
+            background-color: black;
+            
+            
+        }
+        aside#projeto {
+            background-image: url(astronauta.png);
+            /* background-color: grey; */
+            background-size: contain;
+             position: absolute;
+             top: 18%;
+             left: 68%;
+             height: 500px;
+             width: 508px;
+             /* transform: translate(130%, 75%); */
+        }
+        main {
+            background-color: darkslateblue;
+            padding: 20px;
+            margin: 80px 80px 80px 80px;
+            border: 3px dashed goldenrod;
+            border-radius: 12px;
+            color: aqua;
+            text-align: justify;
+            font-size: larger;
+            text-shadow: 2px 4px 4px black;
         }
     </style>
 </head>
 <body>
-    <img src="astronauta.png" alt="Astrounauta" id="projeto">
+    <div id="container">
+        <aside id="projeto">
+            
+        </aside>
+        <main>
+            <h1>Texto</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit ducimus veniam nam doloremque! Consectetur temporibus optio non id a expedita distinctio esse atque aliquid. Culpa incidunt natus perferendis rem quae?</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis odio sequi nobis voluptates consequuntur iure libero quo esse sunt, error exercitationem suscipit id repellat facere ab similique animi iusto maiores!</p>
+            <h2>Tu vê...</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. At eos, accusantium recusandae neque, molestiae animi vel impedit praesentium aliquid quia explicabo id ea ad dicta assumenda fuga culpa, repellendus ut?</p>
+        </main>
+    </div>
+    
+    
 </body>
 </html>
